@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer - Your Adventure Travel Expert</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: #1a2a6c;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo {
+            display: inline-block;
+            color: #ff9900;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav {
+            float: right;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff9900;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            padding: 80px 0;
+            color: #fff;
+        }
+        .hero-content {
+            display: inline-block;
+            width: 40%;
+            vertical-align: middle;
+        }
+        .hero-image {
+            display: inline-block;
+            width: 55%;
+            text-align: right;
+            vertical-align: middle;
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .hero select, .hero button {
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .hero select {
+            background-color: #fff;
+            color: #333;
+        }
+        .hero button {
+            background-color: #ff9900;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover {
+            background-color: #e68a00;
+        }
+        .destinations {
+            padding: 50px 0;
+            background-color: #fff;
+        }
+        .destination {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            vertical-align: top;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .destination:hover {
+            transform: translateY(-5px);
+        }
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .destination-content {
+            padding: 20px;
+        }
+        .destination h3 {
+            color: #1a2a6c;
+            margin-top: 0;
+        }
+        .destination button {
+            background-color: #1a2a6c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .destination button:hover {
+            background-color: #ff9900;
+        }
+        .contact {
+            background-color: #1a2a6c;
+            padding: 50px 0;
+            color: #fff;
+        }
+        .contact form {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .contact input, .contact select, .contact button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #ff9900;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact button:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">explorer</div>
+            <nav>
+                <a href="#">Hotels</a>
+                <a href="#">Bike Rentals</a>
+                <a href="#">Restaurants</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>WELCOME TO EXPLORER</h2>
+                <h1>Your Adventure Travel Expert in the <strong>SOUTH</strong></h1>
+                <select>
+                    <option>Choose</option>
+                </select>
+                <button>EXPLORE</button>
+            </div>
+            <div class="hero-image">
+                <img src="img/1.jpg" alt="Biker in mountains" style="max-width: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <h2>Destinations</h2>
+            <p>Just for you, Because you and your bike are special to us!</p>
+            <div class="destination">
+                <img src="img/wee.png" alt="Paddy Fields">
+                <h3>Never Ending Paddy Fields and Narrow Roads</h3>
+                <p>Pollachi</p>
+                <p>Explore Pollachi's lush, emerald-green paddy fields. Navigate narrow roads meandering through vast agricultural landscapes, offering a serene escape into rural Tamil Nadu. Witness village life and traditional farming practices in this picturesque region.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="destination">
+                <img src="img/4.jpg" alt="Small Ride">
+                <h3>Small Ride across town in mid summer heat</h3>
+                <p>Thanjavur</p>
+                <p>Embark on a small ride across Thanjavur, enduring the mid-summer heat to discover Tamil Nadu's cultural heart. Cycle past ancient temples, grand palaces, and vibrant markets that showcase the city's rich heritage, making the journey worthwhile and there is lot to enjoy.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="destination">
+                <img src="img/3.jpg" alt="Lotus Pond">
+                <h3>Catching a Short Break at the Lotus Pond</h3>
+                <p>Chidambaram</p>
+                <p>Pause by the tranquil lotus ponds of Chidambaram. These serene water bodies near the Nataraja Temple offer a peaceful retreat. Watch delicate lotus flowers bloom amidst calm waters, creating a setting perfect for contemplation and natural beauty.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="destination">
+                <img src="img/2.jpg" alt="Road Trip">
+                <h3>Road Trip enroute the mountains and forests</h3>
+                <p>Kolli Hills</p>
+                <p>Embark on a road trip through Kolli Hills, where winding mountain roads lead through lush forests and breathtaking landscapes. With 70 continuous hairpin bends, this adventure offers rewarding views of misty valleys, waterfalls, and diverse flora.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="destination">
+                <img src="img/5.jpg" alt="Agraharams">
+                <h3>Fall in love with the divine agraharams</h3>
+                <p>Kumbakonam</p>
+                <p>Immerse in Kumbakonam's agraharams—traditional Brahmin quarters lining the temple town. These architectural marvels with distinctive layouts and intricate details offer a glimpse into living heritage. Wander lanes, admire facades, and feel the spiritual essence.</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="destination">
+                <img src="img/win.png" alt="Windmills">
+                <h3>Energy driven drive through the windmills</h3>
+                <p>Theni</p>
+                <p>Experience the sight of windmills dotting Theni's landscape. As you drive through, witness nature blending with sustainable energy. The turbines against rolling hills create a vista symbolizing progress.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Our Sales Team will reach out to you ASAP!</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <select>
+                    <option>Your Home Town</option>
+                </select>
+                <select>
+                    <option>Where would you like to go?</option>
+                </select>
+                <input type="tel" placeholder="Contact Number">
+                <button type="submit">SUBMIT INTEREST</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
